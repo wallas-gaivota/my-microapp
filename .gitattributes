@@ -1,0 +1,10 @@
+* text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+
+# Fix fonts being corrupted
+*.ttf     -text diff
+*.eot     -text diff
+*.woff    -text diff
+*.woff2   -text diff
+

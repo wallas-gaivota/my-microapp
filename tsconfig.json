@@ -1,0 +1,11 @@
+{
+  "extends": "ts-config-single-spa",
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "src",
+    "downlevelIteration": true,
+    "allowUmdGlobalAccess": true
+  },
+
+  "include": ["src/**/*"]
+}
